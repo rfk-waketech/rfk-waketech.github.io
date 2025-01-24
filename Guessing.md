@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-Start([#**Start**]) --> Range[**Display Range**]
+Start([# **Start**]) --> Range[**Display Range**]
 Range --> Rand[Generate Random Number]
 Rand --> Input[User Guess]
 Input --> Valid[Is input valid?]
