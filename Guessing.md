@@ -11,5 +11,6 @@ Check --> |No| Hint[_Is guess > hint?_]
 Hint --> |Yes| High['Your guess is too high! Try again!'] --> Input
 Hint --> |No| Low['Your guess is too low! Try again!'] --> Input
 
-%% Test %%
+%% this is a comment A --text --> B{node}
+A -- text --> B --> text2 --> C
 ```
