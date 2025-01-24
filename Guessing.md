@@ -1,4 +1,12 @@
 ```mermaid
 flowchart TD
-Start([Start]) --> End([End])
+Start([Start]) --> Generate[Random Number]
+Generate --> Guess[User Guess]
+Guess --> Check[
+
+
+
+
+
+End([End])
 ```
