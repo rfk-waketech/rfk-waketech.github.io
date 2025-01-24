@@ -10,4 +10,6 @@ Check --> |Yes| End['You got it right! Congratulations!'] --> _End_
 Check --> |No| Hint[_Is guess > hint?_]
 Hint --> |Yes| High['Your guess is too high! Try again!'] --> Input
 Hint --> |No| Low['Your guess is too low! Try again!'] --> Input
+
+%% Test %%
 ```
