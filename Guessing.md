@@ -1,7 +1,7 @@
 ```mermaid
 flowchart LR
 _Start_ --> Range[_Display range_]
-Range --> Rand[_Generate random number_]
+Range --> Rand[_Generate random number in range_]
 Rand --> Input['Please guess a number from the range provided.']
 Input --> Valid[Is input valid?]
 Valid --> |No| Error['Invalid input. Try again!'] --> Input
