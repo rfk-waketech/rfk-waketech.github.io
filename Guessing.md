@@ -11,6 +11,6 @@ Check --> |No| Hint[_Is guess > hint?_]
 Hint --> |Yes| High['Your guess is too high! Try again!'] --> Input
 Hint --> |No| Low['Your guess is too low! Try again!'] --> Input
 
-%% Start --> Range1 --> Rand1 --> Input1 --> Valid1 --> Check1 --> Hint1
-Start -- Game is launched --> Range1 -- Computer displays valid range of numbers --> Rand1 -- Computer generates a random number --> Input1 -- User enters their guess as a text input --> Valid1 -- Computer checks if user input is valid according to the syntax and range --> Check1 -- Computer checks if user input is correct --> Hint1 -- Computer provides a hint if user input is incorrect --> Input1
+%% Documentation --> rangeDoc --> randDoc --> inputDoc --> validDoc --> checkDoc --> hintDoc
+Documentation -- Game is launched --> Range1 -- Computer displays valid range of numbers --> Rand1 -- Computer generates a random number --> Input1 -- User enters their guess as a text input --> Valid1 -- Computer checks if user input is valid according to the syntax and range, re-prompting them if there's an error --> Check1 -- Computer checks if user input is correct, ending the program if it is --> Hint1 -- Computer provides a hint if user input is incorrect --> Input1
 ```
